@@ -842,4 +842,13 @@ textarea {
     display: flex;
     flex-direction: column;
   }
+
+  .personal-logo {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+  }
 }
