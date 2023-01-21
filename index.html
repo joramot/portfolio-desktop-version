@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/e52d74ec85.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="/css/style.css">
@@ -14,11 +15,14 @@
 <body>
   <header class="menu-bar-container">
     <h1 class="personal-logo">Jose RM</h1>
-    <nav class="portfolio-menu">
-      <a href="">Portfolio</a>
-      <a href="">About</a>
-      <a href="">Contact</a>
-      <a href=""><img src="./images/mail-icon.png" alt=""></a>
+    <nav class="burger-icon"><i class="fa-solid fa-bars"></i></nav>
+    <nav>
+      <ul class="portfolio-menu">
+        <li><a href="">Portfolio</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href=""><img src="./images/mail-icon.png" alt=""></a></li>
+      </ul>
     </nav>
   </header>
   <section class="head-container">
@@ -136,11 +140,13 @@
   </section>
   <section class="about-me-container">
     <div class="about-information">
-      <h3>About me</h3>
-      <p>Hey there! I can help you build a product, feature or website. Look through some of my work
-        and experience! If you like what you see and have a project you need coded, don’t hesitate
-        to contact me.</p>
-      <button>Get My Resume</button>
+      <div class="header-about">
+        <h3>About me</h3>
+        <p>Hey there! I can help you build a product, feature or website. Look through some of my work
+          and experience! If you like what you see and have a project you need coded, don’t hesitate
+          to contact me.</p>
+        <button class="button_form">Get My Resume</button>
+      </div>
       <hr>
       <div class="about-tech-skills">
         <div class="language-skill">
@@ -195,7 +201,7 @@
       <hr class="separator-line" id="separator-line">
       <textarea id="msg" name="user_message" rows="5" cols="88" maxlength="500" placeholder="Enter text here"
         required></textarea>
-      <input class="button" type="submit" value="Get in touch"></input>
+      <input class="button button_form" type="submit" value="Get in touch"></input>
     </form>
   </section>
   <footer class="bottom-social-media">
