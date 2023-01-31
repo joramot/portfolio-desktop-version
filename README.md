@@ -1,4 +1,7 @@
+
 # Jose RM - Projects Portfolio
+
+# portfolio
 <a name="readme-top"></a>
 
 <!--
@@ -25,6 +28,16 @@ OPTIONAL SECTIONS:
 
 After you're finished please remove all the comments and instructions!
 -->
+
+
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -79,6 +92,7 @@ After you're finished please remove all the comments and instructions!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
@@ -96,6 +110,8 @@ Clone this repository to your desired folder:
 
   cd "your-folder"
   git clone https://github.com/joramot/portfolio-desktop-version.git
+
+  git clone [git@github.com:[https:/adelphinsucasa/Portfolio-Setup-and-mobile-first.git]
 
 
 ### Usage
@@ -121,6 +137,7 @@ You can deploy this project using visual studio code and Figma.
 - LinkedIn: https://linkedin.com/in/jose-RM
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 ## 🔭 Future Features <a name="future-features"></a>
