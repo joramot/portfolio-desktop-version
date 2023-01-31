@@ -101,6 +101,13 @@ header a {
 
 /* *BEGIN Recent Works Section* */
 
+.works {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-width: 758px;
+}
+
 .recent-works-container {
   background-color: #fff;
   display: flex;
@@ -121,8 +128,7 @@ header a {
 }
 
 .multi-post img {
-  width: 42.75rem;
-  height: 28rem;
+  width: 50%;
 }
 
 .info {
@@ -141,7 +147,7 @@ header a {
 
 .info p {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 400;
   font-family: Inter, sans-serif;
 }
@@ -635,6 +641,10 @@ a:focus {
     display: flex;
   }
 
+  .works {
+    display: flex;
+  }
+
   .contact-container {
     background-color: #fff;
     display: flex;
@@ -656,6 +666,7 @@ a:focus {
   .multi-post {
     display: flex;
     margin: 7.12rem 0 0 0;
+    justify-content: center;
   }
 
   .cards-box {

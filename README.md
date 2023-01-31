@@ -1,3 +1,6 @@
+
+# Jose RM - Projects Portfolio
+
 # portfolio
 <a name="readme-top"></a>
 
@@ -25,6 +28,7 @@ OPTIONAL SECTIONS:
 
 After you're finished please remove all the comments and instructions!
 -->
+
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
@@ -78,6 +82,16 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+- [Live Demo Link](https://joramot.github.io/portfolio-desktop-version/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -95,7 +109,10 @@ Clone the repository using git, and open it with visual studio code.
 Clone this repository to your desired folder:
 
   cd "your-folder"
+  git clone https://github.com/joramot/portfolio-desktop-version.git
+
   git clone [git@github.com:[https:/adelphinsucasa/Portfolio-Setup-and-mobile-first.git]
+
 
 ### Usage
 
@@ -121,6 +138,18 @@ You can deploy this project using visual studio code and Figma.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+- [ ] **Link to YouTube Channel**
+- [ ] **News Section**
+- [ ] **Blog**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
 
 
 ## 🤝 Contributing <a name="contributing"></a>
