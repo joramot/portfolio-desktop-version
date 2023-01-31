@@ -86,7 +86,7 @@ Clone the repository using git, and open it with visual studio code.
 Clone this repository to your desired folder:
 
   cd "your-folder"
-  git clone git@github.com:https:/adelphinsucasa/Portfolio-Setup-and-mobile-first.git
+  git clone https://github.com/joramot/portfolio-desktop-version.git
 
 
 ### Usage
@@ -117,9 +117,9 @@ You can deploy this project using visual studio code and Figma.
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
-- [ ] **[Link to YouTube Channel]**
-- [ ] **[News Section]**
-- [ ] **[Blog]**
+- [ ] **Link to YouTube Channel**
+- [ ] **News Section**
+- [ ] **Blog**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
