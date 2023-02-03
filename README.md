@@ -132,6 +132,8 @@ You can deploy this project using visual studio code and Figma.
 
 👤 ** Jose RM **
 
+- Project presentation: https://www.loom.com/share/76fd0013036545e98a6468ab7acfd356
+
 - GitHub: https://github.com/joramot
 - Twitter: https://twitter.com/el_rulis
 - LinkedIn: https://linkedin.com/in/jose-RM
@@ -161,7 +163,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project you can contact the author througt the above meddia links or by email to dalejandro.005@gmail.com
+If you like this project you can contact the author througt the above meddia links or by email to mojica.raul@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
