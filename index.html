@@ -11,11 +11,19 @@
 </head>
 
 <body>
-  <header>
+  <header class="navigator">
     <p class="personal-logo"> Jose RM</p>
     <nav class="hamburger-menu">
-      <nav class="burger-icon"><span><i class="fa-solid fa-bars"></i></span></nav>
+      <nav class="burger-icon"><span><i id="icon-hmenu" class="fa-solid fa-bars"></i></span></nav>
     </nav>
+    <div class="compactMenu">
+      <div><img class="xicon"  src="./images/x-icon.png" alt="icon hambuger menu"></div>
+      <nav id="menu-options">
+        <a href="#">Portfolio</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
     <nav class="nav-header">
       <a href=""> Home</a>
       <a href="">About</a>
@@ -137,7 +145,7 @@
         <p>Hey there! I can help you build a product, feature or <br>website. Look through some of my work
           and experience! If <br>you like what you see and have a project you need coded, <br>don’t hesitate
           to contact me.</p>
-        <button  type="button" class="button_form">Get My Resume</button>
+        <button type="button" class="button_form">Get My Resume</button>
       </div>
       <hr>
       <div class="about-tech-skills">
@@ -206,6 +214,7 @@
       <a href=""><img src="./images/medium-icon-dark.png" alt="Medium Social MediaLink"></a>
     </nav>
   </footer>
+  <script src="menu.js"></script>
 </body>
 
 </html>

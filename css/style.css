@@ -618,6 +618,17 @@ a:focus {
   padding: 0.5rem;
 }
 
+.compactMenu {
+  display: none;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: #3c3a39;
+  color: #fff5e1;
+  position: fixed;
+  padding: 10px 24px;
+}
+
 @keyframes text {
   from {
     background-color: #cfcfcf;
@@ -719,5 +730,9 @@ a:focus {
 
   .head {
     background-image: url(../images/Illustration-header-5.png);
+  }
+
+  nav {
+    display: none;
   }
 }
