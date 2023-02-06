@@ -374,6 +374,16 @@ header a {
   flex-direction: column;
 }
 
+.about hr {
+  display: inline;
+  width: 80%;
+  align-self: center;
+  height: 2px;
+  border-width: 0;
+  color: #fff;
+  background-color: #fff;
+}
+
 .header-about {
   margin-left: 8.875rem;
   margin-top: 8.125rem;
@@ -551,6 +561,14 @@ textarea {
 
 /* *BEGIN Footer Section */
 
+.footer hr {
+  display: block;
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+}
+
 .media-links {
   margin: 1rem 0 1rem 0;
   display: flex;
@@ -637,6 +655,10 @@ a:focus {
     display: none;
   }
 
+  .burger-icon span {
+    color: #fff;
+  }
+
   .nav-header {
     display: flex;
   }
@@ -667,6 +689,7 @@ a:focus {
     display: flex;
     margin: 7.12rem 0 0 0;
     justify-content: center;
+    align-self: center;
   }
 
   .cards-box {
