@@ -36,6 +36,35 @@ header a {
   display: none;
 }
 
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 4rem;
+  top: 1rem;
+}
+
 /*  *END Header Menu* */
 
 /* *BEGIN HeadLine Section* */
@@ -618,11 +647,19 @@ a:focus {
   padding: 0.5rem;
 }
 
+.xicon {
+  cursor: pointer;
+}
+
+.burger-icon {
+  cursor: pointer;
+}
+
 .compactMenu {
   display: none;
   flex-direction: column;
-  height: 100vh;
   width: 100%;
+  height: 100vh;
   background-color: #3c3a39;
   color: #fff5e1;
   position: fixed;
