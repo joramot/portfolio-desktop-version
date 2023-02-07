@@ -9,6 +9,24 @@
 }
 
 /* BEGIN Header Menu */
+nav {
+  height: 10vh;
+  width: 100%;
+  background-color: #3c3a39;
+  display: grid;
+  justify-content: space-between;
+  grid-template: 100%/ 80% 20%;
+}
+
+#hamburger {
+  cursor: pointer;
+}
+
+.xicon {
+  margin-top: 5rem;
+  margin-right: 0;
+  margin-bottom: 14px;
+}
 
 header {
   height: 4.5rem;
@@ -36,33 +54,32 @@ header a {
   display: none;
 }
 
-/* Style the navigation menu */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
+.menu {
+  display: flex;
+  align-self: center;
+  align-content: flex-end;
+  flex-direction: row;
+  justify-self: flex-end;
 }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display: none;
-}
-
-/* Style navigation menu links */
-.topnav a {
-  color: white;
-  padding: 14px 16px;
+.menu-display ul li a {
   text-decoration: none;
-  font-size: 17px;
-  display: block;
+  color: #fff;
 }
 
-/* Style the hamburger menu */
-.topnav a.icon {
-  display: block;
-  position: absolute;
-  right: 4rem;
-  top: 1rem;
+.menu-display ul {
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  width: 100%;
+}
+
+.menu-display ul li {
+  border-bottom: #6f6c6b solid 1px;
+  margin-bottom: 20px;
 }
 
 /*  *END Header Menu* */
@@ -698,7 +715,7 @@ a:focus {
 
 /* -------- Desktop version --------- */
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .burger-icon {
     display: none;
   }
@@ -769,7 +786,7 @@ a:focus {
     background-image: url(../images/Illustration-header-5.png);
   }
 
-  nav {
+  .menu {
     display: none;
   }
 }

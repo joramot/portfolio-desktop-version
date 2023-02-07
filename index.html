@@ -12,20 +12,20 @@
 
 <body>
   <header class="topnav">
-    <p class="personal-logo"> Jose RM</p>
-    <!-- <div class="hamburger-menu">
-      <nav class="burger-icon"><span><i  class="fa-solid fa-bars"></i></span></nav>
-    </div> -->
-    <div id="myLinks">
-      <div><img class="xicon" src="./images/x-icon.png" alt="icon hambuger menu"></div>
-      <a href="#">Portfolio</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+    <nav>
+      <p class="personal-logo"> Jose RM</p>
+      <div class="menu">
+        <img id="hamburger" src="./images/hamburger-icon.svg" alt="Display menu">
+      </div>
+    </nav>
+    <div class="menu-display">
+      <div class="xicon"><img src="./images/x-icon.png" alt="Close menu"></div>
+      <ul id="items-menu">
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </div>
-    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
     <nav class="nav-header">
       <a href=""> Home</a>
       <a href="">About</a>
@@ -216,17 +216,8 @@
       <a href=""><img src="./images/medium-icon-dark.png" alt="Medium Social MediaLink"></a>
     </nav>
   </footer>
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myLinks");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-    }
-    </script>
-  <script src=""></script>
+
+  <script src="./js/menu.js"></script>
 
 </body>
 

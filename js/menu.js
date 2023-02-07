@@ -1,9 +1,9 @@
 // Hamburger menu
-const btn = document.querySelector('#icon-hmenu');
-const nav = document.querySelector('.navigator nav');
-const openNav = document.querySelector('.compactMenu');
+const btn = document.querySelector('#hamburger');
+const nav = document.querySelector('.topnav nav');
+const openNav = document.querySelector('.menu-display');
 const closeBtn = document.querySelector('.xicon');
-const menuOpt = document.querySelectorAll('#menu-options a');
+const menuOpt = document.querySelectorAll('#items-menus li a');
 
 const toggleMenuDisplay = () => {
   if (nav.style.display !== 'none') {
