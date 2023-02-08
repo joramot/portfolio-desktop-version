@@ -1,6 +1,6 @@
 // Hamburger menu
 const btn = document.querySelector('#hamburger');
-const nav = document.querySelector('.topnav nav');
+const nav = document.querySelector('.topnav .header-nav');
 const openNav = document.querySelector('.menu-display');
 const closeBtn = document.querySelector('.xicon');
 const menuOpt = document.querySelectorAll('#items-menus li a');
