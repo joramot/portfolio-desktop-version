@@ -79,6 +79,14 @@ header a {
   gap: 0.5rem;
 }
 
+a:hover,
+a:focus {
+  background-color: #f55800;
+  color: #fff;
+  border: 1px solid;
+  padding: 0.5rem;
+}
+
 .menu-display ul li a {
   text-decoration: none;
   color: #fff;
@@ -92,6 +100,13 @@ header a {
   font-size: 32px;
   line-height: 44px;
   width: 100%;
+}
+
+.tech li {
+  background: white;
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+  font-family: 'inter', sans-serif;
 }
 
 .menu-display ul li {
@@ -230,13 +245,6 @@ header a {
   font-size: 0.93rem;
   border: 1px solid #8993a4;
   text-align: center;
-}
-
-.tech li {
-  background: white;
-  border: 1px solid #8993a4;
-  padding: 10px 12px;
-  font-family: 'inter', sans-serif;
 }
 
 .card-1 p {
@@ -662,6 +670,7 @@ textarea {
 .personal-logo {
   font-family: Inter, sans-serif;
   font-size: 1.25rem;
+
   /* transition: width 2s, height 2s, transform 2s; */
 }
 
@@ -673,21 +682,13 @@ textarea {
   transform: rotate(360deg);
 }
 
-a:hover,
-a:focus {
-  background-color: #f55800;
-  color: #fff;
-  border: 1px solid;
-  padding: 0.5rem;
-}
-
 .xicon {
   cursor: pointer;
   position: absolute;
-  left: 0px;
-  right: 0px;
+  left: 0;
+  right: 0;
   top: 44px;
-  bottom: 0px;
+  bottom: 0;
 }
 
 .xicon img {
@@ -699,7 +700,7 @@ a:focus {
   width: 40px;
   height: 40px;
   right: 24px;
-  top: calc(50% - 40px/2);
+  top: calc(50% - 40px / 2);
 }
 
 .compactMenu {
@@ -763,7 +764,7 @@ a:focus {
 
   .desktop-menu a {
     text-decoration: none;
-    color: fff;
+    color: #fff;
   }
 
   .works {
