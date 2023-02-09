@@ -8,6 +8,10 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* BEGIN Header Menu */
 .menu-bar-container {
   width: 100%;
