@@ -8,7 +8,40 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* BEGIN Header Menu */
+.menu-bar-container {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #3e3c3c;
+}
+
+.portfolio-menu {
+  display: none;
+  justify-content: flex-end;
+  margin-right: 10rem;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.desktop-menu {
+  display: none;
+}
+
+#hamburger {
+  cursor: pointer;
+}
 
 header {
   height: 4.5rem;
@@ -32,8 +65,27 @@ header a {
   transition: all 0.5s ease-out;
 }
 
-.nav-header {
-  display: none;
+.menu {
+  display: flex;
+  align-self: center;
+  align-content: flex-end;
+  flex-direction: row;
+  justify-self: flex-end;
+}
+
+a:hover,
+a:focus {
+  background-color: #f55800;
+  color: #fff;
+  border: 1px solid;
+  padding: 0.5rem;
+}
+
+.tech li {
+  background: white;
+  border: 1px solid #8993a4;
+  padding: 10px 12px;
+  font-family: 'inter', sans-serif;
 }
 
 /*  *END Header Menu* */
@@ -167,13 +219,6 @@ header a {
   font-size: 0.93rem;
   border: 1px solid #8993a4;
   text-align: center;
-}
-
-.tech li {
-  background: white;
-  border: 1px solid #8993a4;
-  padding: 10px 12px;
-  font-family: 'inter', sans-serif;
 }
 
 .card-1 p {
@@ -374,6 +419,16 @@ header a {
   flex-direction: column;
 }
 
+.about hr {
+  display: inline;
+  width: 80%;
+  align-self: center;
+  height: 2px;
+  border-width: 0;
+  color: #fff;
+  background-color: #fff;
+}
+
 .header-about {
   margin-left: 8.875rem;
   margin-top: 8.125rem;
@@ -494,7 +549,7 @@ header a {
 }
 
 .contact-form {
-  margin: 8.125rem 0 9.625rem 0;
+  margin: 58px 0 206px 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -551,6 +606,14 @@ textarea {
 
 /* *BEGIN Footer Section */
 
+.footer hr {
+  display: block;
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+}
+
 .media-links {
   margin: 1rem 0 1rem 0;
   display: flex;
@@ -592,12 +655,15 @@ textarea {
   transform: rotate(360deg);
 }
 
-a:hover,
-a:focus {
-  background-color: #f55800;
-  color: #fff;
-  border: 1px solid;
-  padding: 0.5rem;
+.compactMenu {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: #3c3a39;
+  color: #fff5e1;
+  position: fixed;
+  padding: 10px 24px;
 }
 
 @keyframes text {
@@ -632,13 +698,29 @@ a:focus {
 
 /* -------- Desktop version --------- */
 
-@media (min-width: 768px) {
-  .burger-icon {
-    display: none;
+@media screen and (min-width: 768px) {
+  .portfolio-menu {
+    display: flex;
   }
 
-  .nav-header {
+  .desktop-menu {
     display: flex;
+  }
+
+  .desktop-menu ul {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    line-height: 20px;
+    flex-grow: 0;
+  }
+
+  .desktop-menu a {
+    text-decoration: none;
+    color: #fff;
   }
 
   .works {
@@ -667,6 +749,7 @@ a:focus {
     display: flex;
     margin: 7.12rem 0 0 0;
     justify-content: center;
+    align-self: center;
   }
 
   .cards-box {
@@ -696,5 +779,13 @@ a:focus {
 
   .head {
     background-image: url(../images/Illustration-header-5.png);
+  }
+
+  nav {
+    display: none;
+  }
+
+  .menu {
+    display: none;
   }
 }
