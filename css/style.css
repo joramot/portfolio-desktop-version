@@ -549,7 +549,7 @@ a:focus {
 }
 
 .contact-form {
-  margin: 8.125rem 0 9.625rem 0;
+  margin: 58px 0 206px 24px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -644,8 +644,7 @@ textarea {
 .personal-logo {
   font-family: Inter, sans-serif;
   font-size: 1.25rem;
-
-  /* transition: width 2s, height 2s, transform 2s; */
+  transition: width 2s, height 2s, transform 2s;
 }
 
 .personal-logo:hover {
